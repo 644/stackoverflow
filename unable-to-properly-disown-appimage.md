@@ -25,7 +25,7 @@ The actual `marktext` binary seems to have been properly disowned.
 
 The script isn't complicated and just run:
 
-```
+```bash
 marktext <file> &
 disown -h %1
 ```
@@ -37,7 +37,7 @@ Any pointers would be much appreciated.
 
 You can use
 
-```
+```bash
 setsid -f marktext <file>
 ```
 
@@ -45,7 +45,7 @@ To run a program in a new session.
 
 The `-f` option will tell `setsid` to immediately fork into the background. A quick test reveals that `disown` will still keep the parent process, whereas `setsid` won't
 
-```
+```bash
 sleep 100 &
 disown -h %1
 ps -C sleep -oppid,pid
@@ -60,7 +60,7 @@ PPID     PID
 
 And
 
-```
+```bash
 setsid -f sleep 100
 ps -C sleep -oppid,pid
 ```
