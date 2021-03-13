@@ -9,3 +9,4 @@ My answers on stackoverflow ([Link to my profile](https://stackoverflow.com/user
 * [Redirect STDOUT to $EDITOR](https://github.com/644/stackoverflow/blob/main/redirect-bash-script-output-in-editor-without-saving-file.md)
 * [Unable to properly disown appimage](https://github.com/644/stackoverflow/blob/main/unable-to-properly-disown-appimage.md)
 * [Loop over rows from sqlite3](https://github.com/644/stackoverflow/blob/main/how-do-i-loop-over-rows-in-an-sqlite-db-from-bash.md)
+* [Set default value for empty strings in jq](https://github.com/644/stackoverflow/blob/main/jq-handling-empty-strings-and-replacing-them-with-a-default-value.md)
