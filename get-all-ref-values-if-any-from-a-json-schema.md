@@ -3,7 +3,7 @@ I'm new to jq and json schemas. I'm trying to figure out how to examine a schema
 
 I'm using jq, and I'm struggling with knowing how to get a filter. I can look at properties via jq '.properties' [file], but beyond that, I'm not sure how to proceed.
 
-```
+```json
 {
     "$schema": "http://json-schema.org/draft-07/schema",
     "$id": "MySchema.schema.json",
@@ -29,11 +29,11 @@ I'm using jq, and I'm struggling with knowing how to get a filter. I can look at
 If I'm understanding you correctly, you want to read all $ref objects into an array in bash
 
 So to get the list of $ref's
-```
+```jq
 jq -r '.properties[] | select(."$ref" != null) | ."$ref"' filename
 ```
 Then to add them to an array, use mapfile
-```
+```jq
 mapfile -t array_name < <(jq -r '.properties[] | select(."$ref" != null) | ."$ref"' filename)
 ```
 The -t option in mapfile will strip the trailing delimiter from each line read.
