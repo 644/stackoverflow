@@ -3,13 +3,13 @@ I have a script that outputs a few lines and I want to have it open in an editor
 
 I naively have tried something like this (I was thinking I could pipe the output into nano somehow):
 
-```
+```bash
 echo "test" | nano # throws Too many errors from stdin
 ```
 
 Alternatively I thought of opening the output like it's a file:
 
-```
+```bash
 nano $(echo "test")
 ```
 
@@ -18,7 +18,7 @@ It opens only the editor but it's empty. Is this even possible or is a temp file
 # Answer
 You can do
 
-```
+```bash
 echo 'test' | nano -
 ```
 
