@@ -6,3 +6,4 @@ My answers on stackoverflow ([Link to my profile](https://stackoverflow.com/user
 * [Redirecting mysqldump's STDIN/STDERR](https://github.com/644/stackoverflow/blob/main/mysqldump-redirect-greped-stderr-to-a-file.md)
 * [Redirect STDOUT to $EDITOR](https://github.com/644/stackoverflow/blob/main/redirect-bash-script-output-in-editor-without-saving-file.md)
 * [Unable to properly disown appimage](https://github.com/644/stackoverflow/blob/main/unable-to-properly-disown-appimage.md)
+* [Loop over rows from sqlite3](https://github.com/644/stackoverflow/blob/main/how-do-i-loop-over-rows-in-an-sqlite-db-from-bash.md)
