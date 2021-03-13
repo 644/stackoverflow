@@ -1,5 +1,5 @@
 # Question
-I currently have a json file I am manipulating with jq. I am able to display it how I want for the most part. However, I am running into a problem when displaying values for a field that's empty. I am using the // alternative operator but it is not returning the desired output. What is the right way to handle empty strings with jq?
+I currently have a json file I am manipulating with jq. I am able to display it how I want for the most part. However, I am running into a problem when displaying values for a field that's empty. I am using the `//` alternative operator but it is not returning the desired output. What is the right way to handle empty strings with jq?
 
 Current Output:
 ```
@@ -50,7 +50,7 @@ Json:
 ```
 
 # Answer
-"" is not classed as null as Philippe pointed out, but if you're unable to change the json to make the "" become null, what you can do is
+`""` is not classed as null as Philippe pointed out, but if you're unable to change the json to make the `""` become `null`, what you can do is
 
 ```jq
 jq -r 'map({release, installed: .Installed.version, latest: (if .Latest.version == "" then "-" else .Latest.version end), deprecated}) | ( .[0] | keys_unsorted | map(ascii_upcase)), (.[] | [.[]]) | @tsv' data.json | column -t
