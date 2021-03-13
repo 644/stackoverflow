@@ -1,6 +1,8 @@
 # StackOverflow Answers
 My answers on stackoverflow ([Link to my profile](https://stackoverflow.com/users/12768731/nobody))
 
+<a href="https://stackoverflow.com/users/12768731/nobody"><img src="https://stackoverflow.com/users/flair/12768731.png?theme=hotdog" width="208" height="58" alt="My stackoverflow profile badges and reputation" title="My stackoverflow profile badges and reputation"></a>
+
 ## Bash related answers
 * [JQ parsing $ref values](https://github.com/644/stackoverflow/blob/main/get-all-ref-values-if-any-from-a-json-schema.md)
 * [Redirecting mysqldump's STDIN/STDERR](https://github.com/644/stackoverflow/blob/main/mysqldump-redirect-greped-stderr-to-a-file.md)
