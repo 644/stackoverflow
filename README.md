@@ -1,7 +1,7 @@
 # StackOverflow Answers
 My answers on stackoverflow ([Link to my profile](https://stackoverflow.com/users/12768731/nobody))
 
-<a href="https://stackoverflow.com/users/12768731/nobody"><img src="https://stackoverflow.com/users/flair/12768731.png?theme=hotdog" width="208" height="58" alt="My stackoverflow profile badges and reputation" title="My stackoverflow profile badges and reputation" target="_blank"></a>
+<a href="https://stackexchange.com/users/17598203"><img src="https://stackexchange.com/users/flair/17598203.png" width="208" height="58" alt="My stackoverflow profile badges and reputation" title="My stackoverflow profile badges and reputation"></a>
 
 ## Bash related answers
 * [JQ parsing $ref values](https://github.com/644/stackoverflow/blob/main/get-all-ref-values-if-any-from-a-json-schema.md)
