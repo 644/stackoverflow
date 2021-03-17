@@ -12,3 +12,4 @@ My answers on stackoverflow ([Link to my profile](https://stackoverflow.com/user
 * [Set default value for empty strings in jq](https://github.com/644/stackoverflow/blob/main/jq-handling-empty-strings-and-replacing-them-with-a-default-value.md)
 * [Curl webpage behind Cloudflare](https://github.com/644/stackoverflow/blob/main/how-to-use-wget-or-curl-to-download-a-php-generated-csv-file-from-a-webpage.md)
 * [Bulk copy filenames from a file](https://github.com/644/stackoverflow/blob/main/use-a-text-file-containing-file-names-to-copy-files-from-current-directory-to.md)
+* [Preserve query order with grep](https://github.com/644/stackoverflow/blob/main/how-to-obtain-the-query-order-output-when-we-use-grep.md)
