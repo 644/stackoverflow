@@ -15,3 +15,4 @@ My answers on stackoverflow ([Link to my profile](https://stackoverflow.com/user
 * [Preserve query order with grep](https://github.com/644/stackoverflow/blob/main/how-to-obtain-the-query-order-output-when-we-use-grep.md)
 * [Remove duplicate lines with 2 words](https://github.com/644/stackoverflow/blob/main/remove-duplicate-lines-with-2-words.md)
 * [Complex diff formatting with pandoc](https://github.com/644/stackoverflow/blob/main/command-line-comparison-e-g-diff-ignoring-non-whitespace-first-character-of-e.md)
+* [Create tar file when folder is modified](https://github.com/644/stackoverflow/blob/main/shell-script-to-create-a-tar-file-whenever-a-particular-folder-gets-modified.md)
