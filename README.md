@@ -16,3 +16,4 @@ My answers on stackoverflow ([Link to my profile](https://stackoverflow.com/user
 * [Remove duplicate lines with 2 words](https://github.com/644/stackoverflow/blob/main/remove-duplicate-lines-with-2-words.md)
 * [Complex diff formatting with pandoc](https://github.com/644/stackoverflow/blob/main/command-line-comparison-e-g-diff-ignoring-non-whitespace-first-character-of-e.md)
 * [Create tar file when folder is modified](https://github.com/644/stackoverflow/blob/main/shell-script-to-create-a-tar-file-whenever-a-particular-folder-gets-modified.md)
+* [Awk multiple delimiters, with some being 2 characters](https://github.com/644/stackoverflow/blob/main/how-to-search-multiple-delimiters-position-in-a-single-command-in-unix.md)
